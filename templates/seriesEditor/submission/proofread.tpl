@@ -180,6 +180,6 @@
 
 {if $currentPress->getLocalizedSetting('proofInstructions')}
 &nbsp;&nbsp;
-<a href="javascript:openHelp('{url op="instructions" path="proof"}')" class="action">{translate key="submission.proofread.instructions"}</a>
+<a href="{url op="instructions" path="proof"}" class="action openHelp">{translate key="submission.proofread.instructions"}</a>
 {/if}
 </div>

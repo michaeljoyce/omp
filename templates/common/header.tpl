@@ -95,6 +95,7 @@
 		});
 		{/literal}
     </script>
+    <script type="text/javascript" src="{$baseUrl}/lib/pkp/js/omp.js"></script>
 
 	{$additionalHeadData}
 </head>
